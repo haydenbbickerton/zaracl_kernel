@@ -483,6 +483,7 @@ obj-$(CONFIG_ARCH_MSM8974) += acpuclock-krait.o acpuclock-8974.o
 obj-$(CONFIG_ARCH_MSM8974) += clock-local2.o clock-pll.o clock-8974.o clock-rpm.o clock-voter.o
 obj-$(CONFIG_ARCH_MSM8974) += gdsc.o
 obj-$(CONFIG_ARCH_MSM9625) += board-9625.o board-9625-gpiomux.o
+obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
 
 ifeq ($(CONFIG_WIMAX),y)
 obj-$(CONFIG_MACH_VALENTE_WX) += board-valente_wx-mmc.o  board-common-wimax.o
